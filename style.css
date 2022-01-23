@@ -13,7 +13,12 @@ body {
   height: 200px;
   perspective: 800px;
   margin-top: 20%;
-  margin-left: 40rem;
+  margin-left: 43rem;
+}
+@media only screen and (max-width: 520px) {
+  .container {
+    margin-left: 25%;
+  }
 }
 .cube {
   transform-style: preserve-3d;
